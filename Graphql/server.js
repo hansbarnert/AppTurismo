@@ -65,8 +65,8 @@ type Reserva{
  type Query{
    getReservas: [Reserva] 
    getReserva(id: ID!): Reserva
-   getLugares: [Viaje]
-   getViajes: [Lugar]
+   getLugares: [Lugar]
+   getViajes: [Viaje]
  }
 
  type Mutation{
